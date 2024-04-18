@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration and Login</title>
+</head>
+<body>
+    @* <h2>User Registration</h2>
+    <form method="post" action="/Account/Register">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Register">
+    </form> *@ 
+
+    <h2>User Login</h2>
+    <form method="post" action="/Account/Login">
+        <label for="loginUsername">Username:</label>
+        <input type="text" id="loginUsername" name="loginUsername" required>
+        <br>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" name="loginPassword" required>
+        <br>
+        <input type="submit" value="Login"><p>or</p>
+    </form>
+    <form method="post" action="/Account/Register">
+    <input type="submit" value="Register"></form>
+     
+</html>

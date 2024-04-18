@@ -1,0 +1,17 @@
+@model List<string>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Job Search</title>
+    </head>
+    <body>
+        <h2>Available Jobs</h2>
+        <ul>
+            @foreach (var job in Model)
+            {
+                <li>@job</li>
+            }
+        </ul>
+    </body>
+    </html>
